@@ -29,7 +29,7 @@ class App extends Component {
         <div className="grid-row grid-row__top-pad">
           <div className="col-8-mobile col-6-desktop offset-1-desktop">
             <h2 className="center">Take a look at my resume.</h2>
-            <img src={resume} className="img-shadowed" />
+            <img src={resume} className="resume" />
           </div>
         </div>
       </div>
