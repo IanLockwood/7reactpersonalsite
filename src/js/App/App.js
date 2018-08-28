@@ -22,7 +22,7 @@ class App extends Component {
             <h1>{"Hi, I'm Ian Lockwood"}</h1>
             <p>Nice to meet you.</p>
             <h2>{"I'm a front end developer."}</h2>
-            <p>{"I'm especially good at React, Ruby on Rails, CSS, and UI/UX design. This site is actually a React app!"}</p>
+            <p>{"I'm especially good at React, Ruby on Rails, CSS, and UI/UX design."}</p>
             <p>This site is actually a React app!</p>
           </div>
         </div>
