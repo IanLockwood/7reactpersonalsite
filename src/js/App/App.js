@@ -3,6 +3,7 @@ import '../../css/App.scss';
 import '../../css/grid-row.scss';
 import ian from '../../assets/Ian.jpg'
 import resume from '../../assets/ian-lockwood-resume.jpg'
+import resumeDownload from '../../assets/ian-lockwood-resume-pdf.pdf'
 
 class App extends Component {
   constructor(props) {
@@ -29,7 +30,10 @@ class App extends Component {
         <div className="grid-row grid-row__top-pad">
           <div className="col-8-mobile col-6-desktop offset-1-desktop">
             <h2 className="center">Take a look at my resume.</h2>
+            <p className="center"><a href={resumeDownload} download>Or, download it by clicking here.</a></p>
             <img src={resume} className="resume" />
+            <p className="center"><a href={resumeDownload} download>{"Or honestly, you could download it by clicking here."}</a></p>
+            <p className="center">{"Look, I get it, you scrolled all this way, and you don't want to scroll back up. I'm not judging you."}</p>
           </div>
         </div>
       </div>

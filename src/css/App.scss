@@ -4,7 +4,7 @@ body {
   background-color: #fcf5e8;
   font-family: 'Roboto', serif;
   color: #000080;
-  padding-top: 2rem;
+  padding: 2rem 1rem;
 }
 
 h1,
@@ -17,11 +17,16 @@ img {
   width: 100%;
 }
 
+a,
+a:visited {
+  color: #000080;
+}
+
 .center {
   text-align: center;
 }
 
 .resume {
   border: 1px solid #000080;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
